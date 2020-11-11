@@ -1,4 +1,7 @@
 Deuces
+
+This is a port of the  lib [deuces](https://github.com/worldveil/deuces) to python3
+
 ========
 
 A pure Python poker hand evaluation library
