@@ -1,6 +1,6 @@
 Deuces
 
-This is a port of the  lib [deuces](https://github.com/worldveil/deuces) to python3
+This is a port of the  lib [deuces](https://github.com/worldveil/deuces) to python3, shortdeck version
 
 ========
 
@@ -30,7 +30,7 @@ http://willdrevo.com/ (haven't posted yet)
 Deuces is easy to set up and use. 
 
 ```python
->>> from deuces import Card
+>>> from deuces_shortdeck import Card
 >>> card = Card.new('Qh')
 ```
 
@@ -59,7 +59,7 @@ If you have [`termacolor`](http://pypi.python.org/pypi/termcolor) installed, the
 
 Otherwise move straight to evaluating your hand strength:
 ```python
->>> from deuces import Evaluator
+>>> from deuces_shortdeck import Evaluator
 >>> evaluator = Evaluator()
 >>> print evaluator.evaluate(board, hand)
 1600
@@ -69,7 +69,7 @@ Hand strength is valued on a scale of 1 to 7462, where 1 is a Royal Flush and 74
 
 If you want to deal out cards randomly from a deck, you can also do that with Deuces:
 ```python
->>> from deuces import Deck
+>>> from deuces_shortdeck import Deck
 >>> deck = Deck()
 >>> board = deck.draw(5)
 >>> player1_hand = deck.draw(2)

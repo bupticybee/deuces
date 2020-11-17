@@ -5,14 +5,14 @@ Deuces: A pure Python poker hand evaluation library
 from setuptools import setup
 
 setup(
-    name='deuces',
+    name='deuces_shortdeck',
     version='0.1',
     description=__doc__,
     long_description=open('README.md',encoding='UTF-8').read(),
     author='Will Drevo',
     url='https://github.com/worldveil/deuces',
     license='MIT',
-    packages=['deuces'],
+    packages=['deuces_shortdeck'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
