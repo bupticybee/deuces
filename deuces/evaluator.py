@@ -174,7 +174,7 @@ class Evaluator(object):
             # otherwise on all other streets
             else:
                 print
-                print ("=" * line_length) + " HAND OVER " + ("=" * line_length) 
+                print (("=" * line_length) + " HAND OVER " + ("=" * line_length) )
                 if len(winners) == 1:
                     print("Player %d is the winner with a %s\n" % (winners[0] + 1,
                         self.class_to_string(self.get_rank_class(self.evaluate(hands[winners[0]], board)))))
